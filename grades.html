@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Начальная школа | School</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="css/style.min.css?v=1655285076500">
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      
+    </script>
+  </head>
+  <body class="page">
+    <div class="page__wrapper">
+        <header class="header">
+          <div class="header__wrapper">
+            <div class="header__container container">
+              <div class="header__top">
+                  <div class="header-top"><a class="header-top__link" href="#">Онлайн тест</a>
+                    <div class="header-top__search">
+                        <div class="search">
+                          <div class="search__mobile">
+                            <svg width="15" height="15">
+                              <use xlink:href="img/sprite.svg#search"></use>
+                            </svg>
+                          </div>
+                          <div class="search__desktop">
+                            <label class="field-text field-text--search"><span class="field-text__input-wrap">
+                                <input class="field-text__input" type="text" value="" name="comment">
+                                <button class="field-text__help-text">
+                                  <svg width="15" height="15">
+                                    <use xlink:href="img/sprite.svg#search"></use>
+                                  </svg>
+                                </button></span></label>
+                          </div>
+                        </div>
+                    </div><a class="header-top__logo" href="main.html">
+                      <svg width="76" height="44">
+                        <use xlink:href="img/sprite.svg#logo"></use>
+                      </svg></a>
+                    <div class="header-top__select">
+                      <select class="js-header-select select-dropdown-header">
+                        <option>Крылатское</option>
+                        <option>Молодежное</option>
+                        <option>Жуковский</option>
+                      </select>
+                    </div><a class="header-top__btn btn btn--gradient" href="#modal-form" data-toggle="modal">Записаться</a>
+                    <div class="header-top__burger">
+                        <button class="burger" aria-label="Показать пример кода" data-target-id="header-mobile" data-target-class-toggle="header__mobile--shown"><span>Показать пример кода</span></button>
+                    </div>
+                  </div>
+              </div>
+              <div class="header__bottom">
+                  <nav class="header-bottom">
+                    <ul class="header-bottom__menu">
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">О центре</a>
+                        <ul class="header-bottom__submenu">
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Принципы обучения</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Наши педагоги</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Расписание занятий</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Цены, скидки и акции</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Отмены и переносы</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">FAQ</a></li>
+                        </ul>
+                      </li>
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">Для малышей</a>
+                        <ul class="header-bottom__submenu">
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Минисад</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Английский с мамой</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Для 3-6 лет</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Летний клуб</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Нулевой класс</a></li>
+                        </ul>
+                      </li>
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">Для школьников</a>
+                        <ul class="header-bottom__submenu">
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">7-11 лет</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">12-17 лет</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Разговорный клуб</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Британская школа</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Летний клуб</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Лагерь в Англии</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Лагерь в Подмосковье</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Летние интенсивы</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Кембриджские экзамены</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Начальная школа</a></li>
+                        </ul>
+                      </li>
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">Для взрослых</a>
+                        <ul class="header-bottom__submenu header-bottom__submenu--big">
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Общий английский</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Корпоративный английский</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Survival English</a></li>
+                        </ul>
+                      </li>
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">ЕГЭ и ОГЭ</a>
+                        <ul class="header-bottom__submenu">
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Математика</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Русский язык</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Английский язык</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Обществознание</a></li>
+                        </ul>
+                      </li>
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">Другие языки</a>
+                        <ul class="header-bottom__submenu">
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Испанский</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Итальянский</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Немецкий</a></li>
+                          <li class="header-bottom__subitem"><a class="header-bottom__sublink" href="#">Французский</a></li>
+                        </ul>
+                      </li>
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">Франшиза</a></li>
+                      <li class="header-bottom__item"><a class="header-bottom__link" href="#">Контакты</a></li>
+                    </ul>
+                  </nav>
+              </div>
+            </div>
+          </div>
+          <div class="header__mobile" id="header-mobile">
+              <div class="header-mobile">
+                <div class="header-mobile__wrapper">
+                  <div class="header-mobile__text js-dropdown-top">
+                    <input class="header-mobile__input js-dropdown-input" type="text" value="Крылатское" disabled>
+                  </div>
+                  <div class="header-mobile__dropdown js-dropdown"><a class="header-mobile__dropdown-link header-mobile__dropdown-link--active js-dropdown-link" href="#">Крылатское</a><a class="header-mobile__dropdown-link js-dropdown-link" href="#">Молодежное</a><a class="header-mobile__dropdown-link js-dropdown-link" href="#">Жуковский</a></div>
+                  <div class="header-mobile__menu">
+                    <div id="mobile-menu">
+                      <ul>
+                        <li><a href="#">О центре</a>
+                          <ul>
+                            <li><a href="#">Принципы обучения</a></li>
+                            <li><a href="#">Наши педагоги</a></li>
+                            <li><a href="#">Расписание занятий</a></li>
+                            <li><a href="#">Цены, скидки и акции</a></li>
+                            <li><a href="#">Отмены и переносы</a></li>
+                            <li><a href="#">FAQ</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Для малышей</a>
+                          <ul>
+                            <li><a href="#">Минисад</a></li>
+                            <li><a href="#">Английский с мамой</a></li>
+                            <li><a href="#">Для 3-6 лет</a></li>
+                            <li><a href="#">Летний клуб</a></li>
+                            <li><a href="#">Нулевой класс</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Для школьников</a>
+                          <ul>
+                            <li><a href="#">7-11 лет</a></li>
+                            <li><a href="#">12-17 лет</a></li>
+                            <li><a href="#">Разговорный клуб</a></li>
+                            <li><a href="#">Британская школа</a></li>
+                            <li><a href="#">Летний клуб</a></li>
+                            <li><a href="#">Лагерь в Англии</a></li>
+                            <li><a href="#">Лагерь в Подмосковье</a></li>
+                            <li><a href="#">Летние интенсивы</a></li>
+                            <li><a href="#">Кембриджские экзамены</a></li>
+                            <li><a href="#">Начальная школа</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Для взрослых</a>
+                          <ul>
+                            <li><a href="#">Общий английский</a></li>
+                            <li><a href="#">Корпоративный английский</a></li>
+                            <li><a href="#">Survival English</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">ЕГЭ и ОГЭ</a>
+                          <ul>
+                            <li><a href="#">Математика</a></li>
+                            <li><a href="#">Русский язык</a></li>
+                            <li><a href="#">Английский язык</a></li>
+                            <li><a href="#">Обществознание</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Другие языки</a>
+                          <ul>
+                            <li><a href="#">Испанский</a></li>
+                            <li><a href="#">Итальянский</a></li>
+                            <li><a href="#">Немецкий</a></li>
+                            <li><a href="#">Французский</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Франшиза</a></li>
+                        <li><a href="#">Контакты</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="header-mobile__bottom container"><a class="header-mobile__link" href="#">Пройти онлайн тест</a><a class="header-mobile__btn btn btn--gradient" href="#">Записаться</a></div>
+              </div>
+          </div>
+        </header>
+      <main class="page__main">
+        <section class="top-page top-page--no-border">
+          <div class="top-page__container container">
+              <ul class="breadcrumbs" aria-label="Breadcrumb" role="navigation">
+                  <li class="breadcrumbs__item"><a href="main.html">Главная</a>
+                  </li>
+                  <li class="breadcrumbs__item"><span>Начальная школа</span>
+                  </li>
+              </ul>
+            <div class="title-top">
+              <h1 class="title">Начальная школа</h1><a class="main-cost__top-link link link--green link--arrow" href="#"><span>расписание</span>
+                <svg width="26" height="14">
+                  <use xlink:href="img/sprite.svg#arrow-right"></use>
+                </svg></a>
+            </div>
+          </div>
+        </section>
+        <section class="top-img section">
+          <div class="top-img__container container">
+            <div class="top-img__img"><img src="img/top-img/img-1.jpg" alt="alt"/></div>
+          </div>
+        </section>
+        <section class="scroll-block section">
+          <div class="scroll-block__container container">
+            <div class="scroll-block__wrapper">
+              <div class="scroll-block__menu">
+                <ul class="scroll-menu" id="js-scroll-menu">
+                  <li class="scroll-menu__item"><a class="scroll-menu__link" href="#purpose">Содержание и цель</a></li>
+                  <li class="scroll-menu__item"><a class="scroll-menu__link" href="#manual">Учебники</a></li>
+                  <li class="scroll-menu__item"><a class="scroll-menu__link" href="#benefits">Преимущества</a></li>
+                </ul>
+              </div>
+              <div class="scroll-block__content">
+                <div class="universal">
+                  <div class="universal__big-text" id="purpose">
+                    <p>Курсы английского для детей младшего и среднего школьного возраста – одно из наиболее популярных направлений в Центре изучения иностранных языков ABC School.</p>
+                  </div>
+                  <ul class="universal__about">
+                    <li class="universal__about-item">
+                      <div class="universal__about-top">60-90 минут</div>
+                      <div class="universal__about-bottom">Длительность занятий</div>
+                    </li>
+                    <li class="universal__about-item">
+                      <div class="universal__about-top">6 человек</div>
+                      <div class="universal__about-bottom">MAX наполняемость групп</div>
+                    </li>
+                  </ul>
+                  <div class="universal__delimiter"></div>
+                  <h3 class="universal__title">Содержание и цель программы</h3>
+                  <div class="universal__text">
+                    <p>Программа разработана для детей, изучающих английский, как иностранный язык, на основе опыта британских методистов, дополнена авторскими разработками наших педагогов. Уроки проходят весело и интересно, ведь только в комфортной и непринужденной обстановке возможно максимально свободное общение на иностранном языке. Каждый вовлечен в процесс обучения, взаимодействует с преподавателями и сверстниками, высказывает свое мнение. Особое внимание уделено свободной разговорной практике.</p>
+                    <p>На каждой стадии обучения проводятся тесты и небольшие проверочные работы, что позволяет отследить уровень достигнутых успехов, выделить акценты, требующие дополнительной работы, дополнительного закрепления материала.</p>
+                  </div>
+                  <div class="universal__blockquote">Программа составлена с учетом возрастных особенностей и интересов детей школьного возраста. На наших уроках скучать не придется!</div>
+                  <div class="universal__delimiter"></div>
+                  <h3 class="universal__title" id="manual">Учебники</h3>
+                  <div class="universal__big-text">
+                    <p>В процессе обучения используются учебные пособия англоязычных издательств:</p>
+                  </div>
+                  <h4 class="universal__title-dot">Начальный этап</h4>
+                  <div class="universal__text">
+                    <p>На начальном этапе используется серия пособий Family and Friends. В комплект входят рабочая тетрадь, отдельные книги по грамматике с тестами для письменных работ, набор CD дисков. Программа представлена 6 уровнями сложности в зависимости от возраста и срока обучения английскому языку. Лексический материал подобран с учетом интересов младших школьников. Книги отлично иллюстрированы</p>
+                  </div>
+                  <h4 class="universal__title-dot">Следующий этап</h4>
+                  <div class="universal__text">
+                    <p>На следующем этапе используется серия учебных пособий английского языка для детей среднего школьного возраста от автора с мировым именем Tom Hutchinson - Project (Oxford).  В учебниках приводятся примеры использования языковых конструкций в реальных речевых контекстах, комиксы, истории на интересные подросткам тематики. Комплекты дополнены материалами для чтения, тренировки произношения, упражнениями для закрепления изученных навыков</p>
+                  </div>
+                  <h4 class="universal__title-dot">Дополнительно</h4>
+                  <div class="universal__text">
+                    <p>Дополнительное пособие по грамматике Round-Up с улучшенным дизайном и структурой, понятной подачей материала, схемами, рисунками, таблицами, играми, интерактивным материалом на CD диске. Программа разработана с учетом интеграции школьной грамматики, а также с учетом корреляции с Кембриджскими экзаменами и подготовкой к государственным экзаменам.</p>
+                  </div>
+                  <div class="universal__books">
+                    <div class="books">
+                      <div class="books__container container">
+                        <div class="title-top">
+                          <h2 class="books__title title title--small">Учебные пособия для занятий</h2>
+                          <div class="books__navigation books__navigation--top">
+                            <button class="books__prev"></button>
+                            <button class="books__next"></button>
+                          </div>
+                        </div>
+                        <div class="books__wrapper-slider">
+                          <div class="books__slider swiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="books__slide">
+                                  <div class="books__image-wrap">
+                                    <div class="books__image"><img src="img/books/img-1.jpg" alt="alt"/></div>
+                                  </div>
+                                  <h3 class="books__subtitle">Go Getter 1-4</h3>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="books__slide">
+                                  <div class="books__image-wrap">
+                                    <div class="books__image"><img src="img/books/img-2.jpg" alt="alt"/></div>
+                                  </div>
+                                  <h3 class="books__subtitle">New Round Up 1-6</h3>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="books__slide">
+                                  <div class="books__image-wrap">
+                                    <div class="books__image"><img src="img/books/img-3.jpg" alt="alt"/></div>
+                                  </div>
+                                  <h3 class="books__subtitle">Academy Stars 1-6</h3>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="books__slide">
+                                  <div class="books__image-wrap">
+                                    <div class="books__image"><img src="img/books/img-1.jpg" alt="alt"/></div>
+                                  </div>
+                                  <h3 class="books__subtitle">Go Getter 1-4</h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="books__navigation books__navigation--bottom">
+                            <button class="books__prev"></button>
+                            <button class="books__next"></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="universal__delimiter"></div>
+                  <h3 class="universal__title" id="benefits">Преимущества курса</h3>
+                  <div class="universal__big-text">
+                    <p>Курс английского языка для детей 7-12 лет – это новые возможности для развития ваших детей:</p>
+                  </div>
+                  <div class="universal__number-list">
+                    <ul class="number-list">
+                      <li class="number-list__item">
+                        <div class="number-list__content">
+                          <h3 class="number-list__title">Мощная база для продолжения изучения языка в старших классах, успешной сдачи итоговых и кембриджских экзаменов</h3>
+                        </div>
+                      </li>
+                      <li class="number-list__item">
+                        <div class="number-list__content">
+                          <h3 class="number-list__title">Простота общения в путешествиях</h3>
+                        </div>
+                      </li>
+                      <li class="number-list__item">
+                        <div class="number-list__content">
+                          <h3 class="number-list__title">Новые друзья из англоговорящих стран</h3>
+                        </div>
+                      </li>
+                      <li class="number-list__item">
+                        <div class="number-list__content">
+                          <h3 class="number-list__title">Использование навыков в будущей профессии</h3>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="universal__big-text">
+                    <p>У нас – честная стоимость обучения, прекрасные условия для занятий, опытный, квалифицированный штат сотрудников. Гибкий график занятий с легкостью позволяет совместить уроки со школьным расписанием.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main-trial section">
+          <div class="main-trial__container container">
+            <h3 class="main-trial__title title title--small">Пробное занятие</h3>
+            <div class="main-trial__text">В группе 3-6 чел. для новых слушателей возраста 2-17 лет бесплатно в случае приобретения абонемента</div>
+          </div>
+          <div class="main-trial__contact">
+            <div class="main-trial__contact-wrap container"><a class="main-trial__phone" href="tel:+74950014855">+7 (495) 001-48-55</a><a class="main-trial__btn btn btn--gradient" href="#">Записаться на курс</a></div>
+          </div>
+        </section>
+        <section class="main-test section">
+          <div class="main-test__container container">
+            <div class="title-top">
+              <div class="h2 main-test__title title title--small">Пройти тест онлайн</div>
+            </div>
+            <div class="main-test__row">
+              <div class="main-test__col main-test__col--content">
+                <div class="main-test__content">
+                  <h3 class="main-test__subtitle">Тест на определение уровня знаний английского языка</h3>
+                  <div class="main-test__text">Преподаватели Центров ABC school — профессионалы с профильным образованием, большим опытом работы и высокой квалификацией. Для вас преподают как русскоязычные педагоги, так и носители языка (native speakers).</div><a class="main-test__btn btn btn--gradient" href="#">Пройти тестирование</a>
+                </div>
+              </div>
+              <div class="main-test__col main-test__col--image">
+                <div class="main-test__img"><img src="img/main-test/img.png" alt="alt"/></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="page__footer">
+        <footer class="footer">
+          <div class="footer__container container">
+            <div class="footer__top">
+              <div class="footer__logo">
+                <svg width="76" height="44">
+                  <use xlink:href="img/sprite.svg#logo"></use>
+                </svg>
+              </div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__list-link" href="#">О центре</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="#">Для малышей</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="#">Для школьников</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="#">Для взрослых</a></li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__list-link" href="#">ЕГЭ и ОГЭ</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="#">Дргие языки</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="#">Франшиза</a></li>
+                <li class="footer__list-item"><a class="footer__list-link" href="#">Контакты</a></li>
+              </ul>
+              <div class="footer__contacts">
+                <div class="footer__select">
+                  <select class="js-header-select select-dropdown-footer">
+                    <option>Крылатское</option>
+                    <option>Молодежное</option>
+                    <option>Жуковский</option>
+                  </select>
+                </div>
+                <p class="footer__contacts-text">ул. Крылатские Холмы, 41-1,<br> вход между 2 и 3 подъездами</p><a class="footer__contacts-phone" href="tel:+70000000000">+7 (000) 000-00-00</a>
+              </div>
+              <div class="footer__request">
+                <h3 class="footer__request-title">Заказать звонок</h3>
+                <p class="footer__request-text">Мы вам перезвоним в течение 5 минут и ответим на все вопросы</p>
+                <label class="footer__input footer__input--dashed">
+                  <input class="phone-mask" placeholder="Телефон">
+                  <button class="btn">
+                    <svg width="27" height="15">
+                      <use xlink:href="img/sprite.svg#arrow-right"></use>
+                    </svg>
+                  </button>
+                </label>
+                <!--span Телефон-->
+              </div>
+              <div class="footer__social footer__social--mobile"><a class="footer__social-link" href="#">
+                  <svg width="21" height="17">
+                    <use xlink:href="img/sprite.svg#telegram"></use>
+                  </svg></a><a class="footer__social-link" href="#">
+                  <svg width="19" height="16">
+                    <use xlink:href="img/sprite.svg#twitter"></use>
+                  </svg></a><a class="footer__social-link" href="#">
+                  <svg width="23" height="13">
+                    <use xlink:href="img/sprite.svg#vk"></use>
+                  </svg></a></div>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__container container">
+              <div class="footer__bottom-wrap">
+                <div class="footer__copy">© 2022 ABC School</div>
+                <div class="footer__social footer__social--desktop"><a class="footer__social-link" href="#">
+                    <svg width="21" height="17">
+                      <use xlink:href="img/sprite.svg#telegram"></use>
+                    </svg></a><a class="footer__social-link" href="#">
+                    <svg width="19" height="16">
+                      <use xlink:href="img/sprite.svg#twitter"></use>
+                    </svg></a><a class="footer__social-link" href="#">
+                    <svg width="23" height="13">
+                      <use xlink:href="img/sprite.svg#vk"></use>
+                    </svg></a></div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+      <div class="modal modal--teachers mobile-menu" id="modal-teachers" tabindex="-1" role="dialog">
+        <div class="modal__dialog" role="document">
+          <div class="modal__content">
+            <div class="modal__header"><a class="modal__close" href="#" data-dismiss="modal">
+                <svg width="24" height="24">
+                  <use xlink:href="img/sprite.svg#close"></use>
+                </svg></a></div>
+            <div class="modal__body"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal modal--form mobile-menu" id="modal-form" tabindex="-1" role="dialog">
+        <div class="modal__dialog" role="document">
+          <div class="modal__content">
+            <div class="modal__header"><a class="modal__close" href="#" data-dismiss="modal">
+                <svg width="24" height="24">
+                  <use xlink:href="img/sprite.svg#close"></use>
+                </svg></a></div>
+            <div class="modal__body">
+              <div class="title-top">
+                <h2 class="write__title title title--small">Напишите нам</h2>
+              </div>
+              <div class="write__form">
+                  <label class="field-text"><span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" value="" name="name" placeholder="Ваше имя"></span>
+                  </label>
+                  <label class="field-text"><span class="field-text__input-wrap">
+                      <input class="field-text__input" type="text" value="" name="email" placeholder="Ваш Email"></span>
+                  </label>
+                  <label class="field-text"><span class="field-text__input-wrap">
+                      <input class="field-text__input phone-mask" type="text" value="" name="phone" placeholder="Ваш телефон"></span>
+                  </label>
+                  <div class="field-checkbox">
+                    <div class="field-checkbox__input-wrap">
+                      <label class="field-checkbox__name">
+                        <input class="field-checkbox__input" type="checkbox" name="check0"><span class="field-checkbox__name-text">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных</span>
+                      </label>
+                    </div>
+                  </div>
+                <button class="write__btn btn btn--gradient">Отправить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.min.js?v=1655285076504"></script>
+  </body>
+</html>
